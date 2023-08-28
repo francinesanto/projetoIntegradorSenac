@@ -67,6 +67,7 @@ header{
 .menu li ul li{
     display:block;
     width:150px;
+    background-color: #fff;
  }
 
  .buttons{
@@ -231,3 +232,81 @@ footer{
     width: 100%;
     height: 750px;
 }
+
+.logoFooter{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 90px;
+}
+
+.hrPlaystation{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 5px;
+  width: 1700px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.sobre{
+  position: absolute;
+  margin-left: 90px;
+  margin-top:180px ;
+}
+
+.produtos{
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 180px;
+}
+
+.valores{
+  position: absolute;
+  margin-top: 180px ;
+  margin-left: 480px ;
+}
+
+.suporte{
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 820px;
+}
+.recursos{
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 1200px;
+}
+.conectar{
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 1540px;
+}
+.sobre h2, .produtos h2, .valores h2, .suporte h2, .recursos h2, .conectar h2{
+  margin-bottom: 20px;
+  color: #fff;
+
+}
+
+.sobre h3, .produtos h3, .valores h3, .suporte h3, .recursos h3, .conectar h3{
+  margin-bottom: 15px;
+}
+
+.sobre h3 a, .produtos h3 a, .valores h3 a, .suporte h3 a, .recursos h3 a,.conectar h3 {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 100;
+
+}
+
+.sobre h3 a:hover, .produtos h3 a:hover, .valores h3 a:hover, .suporte h3 a:hover, .recursos h3 a:hover, .conectar h3 a:hover {
+  color:rgba(255, 255, 255, 0.5);
+}
+
+
+.conectar img{
+  margin-right: 20px;
+}
+
+.conectar h3{
+  margin-top: 20px;
+}
+
