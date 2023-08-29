@@ -28,13 +28,17 @@ header{
     margin-top: 40px;
 }
 
-.menu{
+.logoPs5{
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.menu, .menuPs5{
     display: flex;
     margin-left: 80px;
     margin-top: 50px;
 }
 
-.menu li{
+.menu li, .menuPs5 li{
     position: relative;
     float: left;
     margin-right: 40px;
@@ -48,11 +52,18 @@ header{
     font-weight: 550;
 }
 
-.menu a:hover{
+.menuPs5 a{
+  color: #999999;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.menu a:hover, .menuPs5 a:hover{
     color:#0070CC
 }
 
-.menu li ul{
+.menu li ul, .menuPs5 li ul{
     position:absolute;
     top:25px;
     left:0;
@@ -60,11 +71,11 @@ header{
     display:none;
 }
 
-.menu li:hover ul, .menu li.over ul{
+.menu li:hover ul, .menu li.over ul, .menuPs5 li:hover ul, .menuPs5.over ul{
     display:block;
 }
 
-.menu li ul li{
+.menu li ul li, .menuPs5 li ul li{
     display:block;
     width:150px;
     background-color: #fff;
@@ -230,7 +241,7 @@ header{
 footer{
     background-color: #044091;
     width: 100%;
-    height: 750px;
+    height: 850px;
 }
 
 .logoFooter{
@@ -310,3 +321,201 @@ footer{
   margin-top: 20px;
 }
 
+.hrHalf{
+  margin-top: 150px;
+  margin-left: -1450px;
+  width: 1700px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.detail1{
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 550px;
+}
+
+.detail2{
+  position:absolute;
+  margin-top:520px;
+  margin-left: 1740px;
+}
+
+.detailText{
+  position: absolute;
+  margin-top: 660px ;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.detailText p{
+  font-size: 15px;
+  font-weight: 100;
+  color:#fff ;
+}
+
+.detailText a{
+  color: #fff;
+}
+
+.hrDetails{
+  margin-top: 10px;
+  width: 1700px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.language{
+  position: absolute;
+  display: flex;
+  margin-left: 90px;
+  margin-top: 780px;
+}
+
+.language  p{
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 50px;
+  color: #fff;
+  font-weight: 100;
+}
+
+.arrow{
+  position: absolute;
+  margin-top: 6px;
+  margin-left: 50px ;
+}
+
+.policies{
+  position: absolute;
+  margin-top: 790px;
+  margin-left: 1180px;
+}
+
+.policies ul{
+  display: flex;
+  list-style: none
+}
+
+.policies ul li a{
+  margin-right: 5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.policies ul li::before {
+  content: " | ";
+  color: #fff;
+  
+}
+
+.policies ul li:first-child:before {
+  content: none;
+}
+
+
+.ps5Menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+.ps5Menu ul li{
+  margin-right: 20px;
+  list-style: none;
+  float: left;
+  padding: 5px;
+}
+
+.ps5Menu a{
+  color:#1F1F1F ;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+  
+}
+
+.ps5Menu a:hover{
+  background-color: #EBEEF0;
+  border-radius: 20px;
+}
+
+
+.ps5Menu ul li:first-child{
+  background-color: #EBEEF0;
+  border-radius: 20px;
+}
+
+
+.imgPs5{
+  margin-top: 20px;
+}
+
+.imgPs5 img{
+  width: 100%;
+}
+
+.jornada{
+  margin-top: -10px;
+  margin-bottom: -100px;
+  background-color: #002FC3;
+  height: 1000px;
+}
+
+.jornadaTexto {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 600px;
+}
+
+.jornadaTexto h2{
+  color: #fff;
+  font-size: 62px;
+  font-weight: lighter;
+}
+
+.jornadaImg{
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 470px;
+}
+
+.jornadaImg img{
+  width: 140px;
+  height: 140px;
+  margin-right: 250px;
+ 
+}
+
+.hrJornada{
+  margin-top: 40px;
+  width: 950px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.paragrafo{
+  position:absolute;
+  margin-top: -300px;
+  margin-left: 550px;
+  width: 800px;
+}
+
+.paragrafo p{
+  color: #fff;
+  font-size: 22px;
+  
+}
+
+.obs {
+  position:absolute;
+  margin-top: -100px;
+  margin-left: 600px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+
+.obs span {
+  margin-left: 250px;
+}
