@@ -10,15 +10,17 @@ function exibirProximoSlide() {
 }
 
 // Exibir o próximo slide a cada 3 segundos
-setInterval(exibirProximoSlide, 5000);
+setInterval(exibirProximoSlide, 3000);
 
 // function para adicionar e remover borda das imagens
 
 const images = document.querySelectorAll('.image');
-let currentIndex = 0;
+let currentIndex = 1;
 
 function updateBorder() {
+ 
   images[currentIndex].style.borderColor = '#044091';
+  images[currentIndex].classList.remove('active');
   if (currentIndex > 0) {
     images[currentIndex - 1].style.borderColor = 'transparent';
   } else {
@@ -28,4 +30,4 @@ function updateBorder() {
   currentIndex = (currentIndex + 1) % images.length;
 }
 
-setInterval(updateBorder, 5000);
+setInterval(updateBorder, 3000);
