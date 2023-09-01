@@ -19,12 +19,17 @@ let currentIndex = 1;
 
 function updateBorder() {
  
-  images[currentIndex].style.borderColor = '#044091';
+ 
+  images[currentIndex].style.boxShadow = '0 0 0 3px #044091'
+  images[currentIndex].style.borderColor = '#fff';
   images[currentIndex].classList.remove('active');
+  
   if (currentIndex > 0) {
     images[currentIndex - 1].style.borderColor = 'transparent';
+    images[currentIndex - 1].style.boxShadow = 'none';
   } else {
     images[images.length - 1].style.borderColor = 'transparent';
+    images[images.length - 1].style.boxShadow = 'none';
   }
 
   currentIndex = (currentIndex + 1) % images.length;
